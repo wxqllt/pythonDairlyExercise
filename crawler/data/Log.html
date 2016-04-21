@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html >
+<head>
+	<title>异常日志</title>
+	<link id="bs-css" href="../css/index.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery.dataTables.css">
+	<style type="text/css" >
+	  body {
+		padding-bottom: 40px;
+	  }
+	  .sidebar-nav {
+		padding: 9px 0;
+	  }
+	  }
+	 
+	</style>
+	<script type="text/javascript"  src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript"  src="../js/slide.js"></script>
+	<script type="text/javascript"  src="../js/jquery-ui.js"></script>
+	<script type="text/javascript"  src="../laydate/laydate.js"></script>
+    <script type="text/javascript"  src="../js/esl.js"> </script>
+    <script type= "text/javascript" src ="../js/jquery.js"></script>
+    <script type="text/javascript" src= "../js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="../js/contentratio/logException.js"></script>
+    
+</head>
+<body>
+	
+  <div style="z-index:2;position: relative">
+    
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>模板</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="liberation">
+<!-- The styles -->
+<link id="bs-css" href="../css/top.css" rel="stylesheet">
+<style type="text/css">
+body {
+	padding-bottom: 38px;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+#mytabs {
+	background: none;
+	border: none;
+}
+</style>
+<script type="text/javascript" src="../js/slide.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- 最顶端导航栏 starts -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<div>
+					<a class="btn btn-navbar" data-toggle="collapse"
+						data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+						<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> </a> <a class="brand" href="index.html">
+						<img alt="Charisma Logo" src="../images/logo20.png" /> <span>template</span>
+					</a>
+				</div>
+
+
+				<div id=menu_out>
+					<div id=menu_in>
+
+						<div id="menu">
+							<ul id="nav">
+
+								<li class="mainlevel"><a href="" target="_blank">首页</a></li>
+
+								<li class="mainlevel" id="mainlevel_01"><a href="#">内容占比与播放量趋势</a>
+									<ul id="sub_01">
+										<li><a href="/Release/contentratio/contentratio_website.jsp" title="网站各视频类型占比">网站各视频类型占比</a>
+										</li>
+										<li><a href="/Release/contentratio/contentratio_videotype.jsp" title="视频类型各网站占比">视频类型各网站占比</a>
+										</li>
+										<li><a href="/Release/contentratio/contentratio_subtype.jsp" title="视频细类占比">视频细类占比</a>
+										</li>
+										<li><a href="/Release/playcounttrend/playcounttrend_website.jsp" title="网站各视频类型播放量趋势">网站各视频类型播放量趋势</a>
+										</li>
+										<li><a href="/Release/playcounttrend/playcounttrend_subwebsite.jsp" title="视频细类各网站播放量趋势">视频细类各网站播放量趋势</a>
+										</li>
+										<li><a href="/Release/playcounttrend/playcounttrend_type.jsp" title="视频类型各网站播放量趋势">视频类型各网站播放量趋势</a>
+										</li>
+										<li><a
+											href="/Release/playcounttrend/playcounttrend_subtype.jsp" title="">视频细类播放量趋势</a>
+										</li>
+										<li><a href="/Release/playcounttrend/showtypeplaycounttrend_website.jsp" title="网站预告片、花絮各视频类型播放量趋势">网站预告片、花絮各视频类型播放量趋势</a>
+										</li>
+										<li><a href="/Release/playcounttrend/showtypeplaycounttrend_type.jsp" title="视频类型预告片、花絮各网站播放量趋势">视频类型预告片、花絮各网站播放量趋势</a>
+										</li>
+										<!-- <li><a href="/Release/contentstatistics/demo1.jsp">页面二</a>
+										</li> -->
+									</ul>
+								</li>
+
+								<li class="mainlevel" id="mainlevel_02"><a href="#">推荐数量占比与趋势</a>
+									<ul id="sub_02">
+										<li><a href="/Release/recommandactivity/categoryproportion.jsp" title="视频类型推荐数量占比">视频类型推荐数量占比</a>
+										<li><a href="/Release/recommandactivity/top.jsp" title="推荐次数分析图">推荐次数分析图</a>
+										<li><a href="/Release/recommandactivity/categorytrend.jsp" title="视频类型推荐数量趋势">视频类型推荐数量趋势</a></li>
+										<li><a href="/Release/recommandactivity/typeproportion.jsp" title="视频细类推荐数量占比">视频细类推荐数量占比</a></li>
+										<li><a href="/Release/recommandactivity/typetrend.jsp" title="视频细类推荐数量趋势">视频细类推荐数量趋势</a></li>
+									</ul>
+								</li>
+
+								<li class="mainlevel" id="mainlevel_03"><a href="#">视频类型相关性</a>
+									<ul id="sub_03">
+										<li><a href="/Release/contentstatistics/contentstatistics.jsp" title="视频类型聚合度分析">视频类型聚合度分析</a></li>
+										<li><a href="/Release/contentstatistics/interrelate.jsp" title="视频类型相关性分析">视频类型相关性分析</a></li>
+										<li><a href="/Release/contentstatistics/subinterrelate.jsp" title="视频细类相关性分析">视频细类相关性分析</a></li>
+										<li><a href="/Release/contentstatistics/top.jsp" title="视频播放量排名top10">视频播放量排名top10</a></li>
+										<li><a href="/Release/contentstatistics/search.jsp" title="单部电影的相关性分析">单部电影的相关性分析</a></li>
+										<li><a href="/Release/showtypecontentstatistics/showtypecontentstatistics_top10.jsp" title="预告片、花絮top10">预告片、花絮top10</a></li>
+										<li><a href="/Release/showtypecontentstatistics/showtypecontentstatistics_90.jsp" title="预告片、花絮90%累积占比">预告片、花絮90%累积占比</a></li>
+										
+									</ul>
+								</li>
+								<li class="mainlevel" id="mainlevel_04"><a href="#">日志</a>
+									<ul id="sub_04">							
+										<li><a href="/Release/Log/dataCount.jsp" title="预告片趋势图">预告片趋势图</a></li>
+										<li><a href="/Release/Log/logLine.jsp" title="日志趋势图">数据量趋势图</a></li>
+										<li><a href="/Release/Log/logSystem.jsp" title="系统日志">系统日志</a></li>
+										<li><a href="/Release/Log/logException.jsp" title="异常日志">异常日志</a></li>
+										<li><a href="/Release/Log/problemDealwith.jsp" title="系统问题处理情况展示">系统问题处理情况展示</a></li>
+										<li><a href="/Release/Log/showProblemDealWith.jsp" title="系统问题处理">系统问题处理</a></li>
+									</ul>
+								</li>
+
+								<!-- <li class="mainlevel" id="mainlevel_04"><a href="#">暂不可用</a>
+									<ul id="sub_04">
+										<li><a href="#">免费模板</a></li>
+										<li><a href="#">网站建设</a></li>
+										<li><a href="#">网络营销</a></li>
+										<li><a href="#">电子商务</a></li>
+										<li><a href="#">广告代码</a></li>
+										<li><a href="#">网页菜单</a></li>
+									</ul>
+								</li>
+
+								<li class="mainlevel" id="mainlevel_05"><a href="#">暂不可用</a>
+									<ul id="sub_05">
+										<li><a href="#">免费模板</a></li>
+										<li><a href="#">网站建设</a></li>
+										<li><a href="#">网络营销</a></li>
+										<li><a href="#">电子商务</a></li>
+										<li><a href="#">广告代码</a></li>
+										<li><a href="#">网页菜单</a></li>
+									</ul>
+								</li>
+								<li class="mainlevel" id="mainlevel_06"><a href="#">暂不可用</a>
+									<ul id="sub_06">
+										<li><a href="#">免费模板</a></li>
+										<li><a href="#">网站建设</a></li>
+										<li><a href="#">网络营销</a></li>
+										<li><a href="#">电子商务</a></li>
+										<li><a href="#">广告代码</a></li>
+										<li><a href="#">网页菜单</a></li>
+									</ul>
+								</li> -->
+								<div class="clear"></div>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 最顶端导航栏 ends -->
+
+
+
+
+</body>
+</html>
+
+  </div>
+<!-- tab页 总框  开始 -->
+		<div class="container-fluid"  style="margin:auto">
+			<div >
+    			
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style type="text/css">
+.td_head {
+	font-family: "微软雅黑";
+	font-size: "20px";
+	color: #449DD3;
+	width: 70px;
+	height: 40px;
+}
+
+.td_context {
+	font-family: "微软雅黑";
+	font-size: "12px";
+	color: #000000;
+	width: 55px;
+	height: 35px;
+}
+
+.td_date {
+	width: 70px;
+}
+
+.td_date_display {
+	height: 25px;
+	
+}
+
+</style>
+<script>
+
+function init(){
+
+$("input#start").val(laydate.now());
+
+
+}
+function submitForm() {
+		//machine
+		var obj = document.getElementById('virtualchoose');
+		var selectwebsite = obj.options[obj.selectedIndex].value;
+		//type
+		var selecttype = 1; 
+		//date
+		var start = $("#start").val();
+			
+		if(start ==""||start == null)
+		{
+			alert("日期不能为空");
+		}
+	else{
+	
+		getDataofJs(selectwebsite,selecttype,start);
+
+		}
+		
+	}
+</script>
+
+
+</head>
+
+
+<body  onload = "init()">
+	<div class="box">
+		<div class="box-header well"
+			style="MARGIN-RIGHT:auto;MARGIN-LEFT: auto">
+			<h2>
+				<i class="icon-th"></i> 高级选项
+			</h2>
+		</div>
+		<div class="box-content" style="MARGIN-RIGHT:auto;MARGIN-LEFT: auto">
+			<table id="formTable">
+				<tr>
+					<td class="td_head">请选择网站：</td>
+					<td>
+					<select id="virtualchoose" name="virtualchoose">
+					<option name="优酷">优酷</option>
+					<option name="爱奇艺">爱奇艺</option>
+					<option name="搜狐">搜狐</option>
+					<option name="56">56</option>
+					<option name="腾讯">腾讯</option>
+					<option name="迅雷">迅雷</option>
+					<option name="乐视">乐视</option>
+					</select>
+					</td>
+<!-- 					<td> -->
+<!-- 						<select id= "logtype" name="logtype"> -->
+<!-- 						<option id="0"	name ="log0">全部</option> -->
+<!-- 						<option id="2" name ="log2" >系统日志</option>  -->
+<!-- 						<option id="1" name ="log1">异常日志</option> -->
+<!-- 						</select> -->
+<!-- 					</td> -->
+					</tr>
+				<tr>
+					<td class="td_head">请选择日期:</td>
+					<td class="td_date td_date_display" colspan="7">
+					<input	type="text" class="laydate-icon" id="start" style="width:200px;" />
+					</td>
+					<!--<td class="td_date td_date_display" colspan="2">结束日：</td>
+					<td class="td_date td_date_display" colspan="7"><input
+						type="text" class="laydate-icon" id="end" style="width:200px;" />
+					</td>
+					<td><input type="radio" id="period" name="period" value="week"
+						onchange="HideDate(this)"></td>
+					<td class="td_context">本周</td>
+					<td><input type="radio" id="period" name="period"
+						value="manual" onchange="showDate(this)">
+					</td>
+					<td class="td_context">自选</td>-->
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<!--  <tr>
+					<td></td>
+					<td class="td_date td_date_display" colspan="2">开始日：</td>
+					<td class="td_date td_date_display" colspan="7"><input
+						type="text" class="laydate-icon" id="start" style="width:200px;" />
+					</td>
+					<td class="td_date td_date_display" colspan="2">结束日：</td>
+					<td class="td_date td_date_display" colspan="7"><input
+						type="text" class="laydate-icon" id="end" style="width:200px;" />
+					</td>
+
+				</tr>-->
+				<tr align="left">
+					<td align="left"><button class="btn btn-primary btn-sm"
+							onclick="submitForm();">确定</button></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+<script>
+	!function() {
+		laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+
+	}();
+
+	var start = {
+		elem : '#start',
+		format : 'YYYY-MM-DD',
+		max : '2099-06-16 23:59:59', //最大日期
+		start: laydate.now(),
+		istime : true,
+		istoday : false,
+	};
+	var end = {
+		elem : '#end',
+		format : 'YYYY-MM-DD',
+		max : '2099-06-16 23:59:59', //最大日期
+		istime : true,
+		istoday : false,
+	};
+	laydate(start);
+	laydate(end);;
+</script>
+
+</html>
+  			</div>
+		<!-- tab页内容 starts -->	
+		
+		
+			<div id="content"  style="margin-top:20px">
+				<div  class="box" >
+					<div class="box-header well">
+						<h2><i class="icon-th"></i> 具体内容</h2>
+					</div>
+     				<div id="myContent" class="tab-content">										
+						<div id="logdetail"> </div>
+						</div>
+				</div><!--/span-->
+			</div>
+			
+			<!--内容结束------------------    -->
+				
+	</div><!--/.fluid-container-->
+
+</body>
+</html>
